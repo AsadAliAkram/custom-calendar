@@ -12,11 +12,11 @@
 			<div class="container">
 			<div class="form">
 				<form action="" method="post">
-					<label>Enter Day</label>
+					<label>Enter Day</label><br>
 					<input required type="number" name="day" min="1" max="22"><br><br>
-					<label>Enter Month</label>
+					<label>Enter Month</label><br>
 					<input required type="number" name="month" min="1" max="13"><br><br>
-					<label>Enter Year</label>
+					<label>Enter Year</label><br>
 					<input required type="number" name="year" min="1"><br><br>
 					<input type="submit" name="submit">
 				</form>
