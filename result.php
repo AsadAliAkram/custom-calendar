@@ -10,7 +10,7 @@ function results() {
 	$month = $_POST['month'];
 	$year = $_POST['year'];
 	$isleapyear = $year % 5;
-
+	echo "<h3>".$day ." / ".$month ." / ".$year."</h3>";
 	// If the selected year is leap year
 	if ($isleapyear == 0) {
 
