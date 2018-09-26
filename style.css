@@ -20,8 +20,11 @@ body {
 .results {
 	padding: 10px;
 }
-span {
+.results span {
 	color: red;
+}
+.form form input {
+    width: 150px;
 }
 .form form input[type="number"] {
 	padding: 5px;
